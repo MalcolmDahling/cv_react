@@ -1,0 +1,79 @@
+main{
+    margin:auto;
+    margin-top:10px;
+    z-index:2;
+    
+    section{
+        text-align:center;
+        display:flex;
+        flex-wrap:wrap;
+
+        h3{
+            margin-top:35px;
+            margin-bottom:0px;
+            font-size:1.25em;
+            flex-basis:100%;
+        }
+
+        article{
+            margin:5px;
+            margin-bottom:20px;
+            text-align:left;
+            flex-basis:100%;
+
+            h3{
+                margin-left:5px;
+                vertical-align:50%;
+                font-size:1.17em;
+                display:inline;
+                color:#20c20e;
+            }
+
+            p{
+                flex-basis:100%;
+                font-size:1.1rem;
+                line-height:1.4rem;
+            }
+
+            .icon{
+                object-fit:none;
+                width:40px;
+                height:40px;
+                filter:invert(48%) sepia(87%) saturate(1099%) hue-rotate(77deg) brightness(100%) contrast(96%) drop-shadow(3px 3px 3px rgba(32, 194, 14, 0.25));
+            }
+
+            .icon3{
+                object-position:0px 0px;
+            }
+
+            .icon4{
+                object-position:-40px 0px;
+            }
+
+            .icon5{
+                object-position:-80px 0px;
+            }
+
+            .icon6{
+                object-position:-120px 0px;
+            }
+
+            .icon7{
+                object-position:-160px 0px;
+            }
+
+            .icon8{
+                object-position:-200px 0px;
+            }
+
+            .icon9{
+                object-position:-240px 0px;
+            }
+
+            .icon10{
+                object-position:-280px 0px;
+            }
+            
+        }
+    }
+}
