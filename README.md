@@ -1,1 +1,1 @@
-https://malcolmdahling.github.io/cv_react/
+Github Pages: https://malcolmdahling.github.io/cv_react/
