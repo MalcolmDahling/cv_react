@@ -1,38 +1,94 @@
 main{
-    margin:auto;
-    margin-top:10px;
-    z-index:2;
-    
-    section{
-        text-align:center;
-        display:flex;
-        flex-wrap:wrap;
+    position:relative;
+    z-index:20;
+    padding:30px;
 
-        h3{
-            margin-top:35px;
-            margin-bottom:0px;
-            font-size:1.25em;
-            flex-basis:100%;
+    display:flex;
+    gap:30px;
+
+    background-color:rgba(15, 15, 15, 0.95);
+    color:white;
+    border-radius:10px;
+    border:1px solid white;
+
+    .sectionLeft{
+
+        h1{
+            margin:0px;
+            margin-bottom:10px;
+            text-align:center;
+            font-size:1.6rem;
         }
 
-        article{
-            margin:5px;
-            margin-bottom:20px;
-            text-align:left;
-            flex-basis:100%;
+        .profilePic{
+            width:200px;
+            border:1px solid #ffffff;
+        }
+        
+        nav{
+            margin-top:10px;
+            cursor:default;
 
-            h3{
-                margin-left:5px;
-                vertical-align:50%;
-                font-size:1.17em;
-                display:inline;
-                color:#20c20e;
+            display:flex;
+            justify-content:space-between;
+            
+            a{
+                width:50px;
+                height:50px;
+                border:2px solid #ffffff;
+                padding:5px;
+                filter:invert(48%) sepia(87%) saturate(1099%) hue-rotate(77deg) brightness(100%) contrast(96%) drop-shadow(3px 3px 3px rgba(32, 194, 14, 0.25));
+
+                img{
+                    object-fit:none; //crops the image.
+                    width:36px;
+                    height:36px;
+                }
+
+                .icon0{object-position:0px 0px;}
+                .icon1{object-position:-36px 0px;}
+                .icon2{object-position:-72px 0px;}
             }
 
-            p{
-                flex-basis:100%;
-                font-size:1.1rem;
-                line-height:1.4rem;
+            a:hover{
+                cursor:pointer;
+                background-color:rgba(255, 255, 255, 0.2);
+            }    
+        }
+        
+        a{
+            text-decoration:none;
+            font-size:1.17em;
+        }
+        
+    }
+    
+    
+
+    .sectionRight{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+
+        user-select:none;
+
+        div{
+            flex-basis:49%;
+            padding:10px;
+            box-sizing:border-box;
+
+            display:flex;
+            align-items:center;
+            gap:10px;
+
+            background-color:#181818;
+            border-radius:10px;
+            border:1px solid transparent;
+
+            h2{
+                margin:0px;
+                font-size:1.25rem;
             }
 
             .icon{
@@ -41,39 +97,27 @@ main{
                 height:40px;
                 filter:invert(48%) sepia(87%) saturate(1099%) hue-rotate(77deg) brightness(100%) contrast(96%) drop-shadow(3px 3px 3px rgba(32, 194, 14, 0.25));
             }
+        
+            .icon3{object-position:0px 0px;}
+            .icon4{object-position:-40px 0px;}
+            .icon5{object-position:-80px 0px;}
+            .icon6{object-position:-120px 0px;}
+            .icon7{object-position:-160px 0px;}
+            .icon8{object-position:-200px 0px;}
+            .icon9{object-position:-240px 0px;}
+            .icon10{object-position:-280px 0px;}
+        }
 
-            .icon3{
-                object-position:0px 0px;
-            }
-
-            .icon4{
-                object-position:-40px 0px;
-            }
-
-            .icon5{
-                object-position:-80px 0px;
-            }
-
-            .icon6{
-                object-position:-120px 0px;
-            }
-
-            .icon7{
-                object-position:-160px 0px;
-            }
-
-            .icon8{
-                object-position:-200px 0px;
-            }
-
-            .icon9{
-                object-position:-240px 0px;
-            }
-
-            .icon10{
-                object-position:-280px 0px;
-            }
-            
+        div:hover{
+            //background-color:#272727;
+            cursor:pointer;
+            border:1px solid rgb(20, 122, 9);
+            box-shadow:0px 0px 5px 0px rgb(20, 122, 9);
+        }
+        
+        .selected{
+            border:1px solid rgb(32, 194, 14) !important;
+            box-shadow:0px 0px 5px 0px rgb(32, 194, 14) !important;
         }
     }
 }

@@ -1,28 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { Header } from './components/header/Header';
-import { Main } from './components/main/Main';
-import MatrixRain from './components/matrix/Matrix';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
     <React.StrictMode>
+
         <HelmetProvider>
 
             <Helmet>
-                <title>Malcolm Dahling CV</title>
+                    <title>Malcolm Dahling CV</title>
             </Helmet>
-
-            <div id="wrapper">
-                <Header></Header>
-                <Main></Main>
-            </div>
-
-            <MatrixRain></MatrixRain>
+            
+            <App></App>
 
         </HelmetProvider>
+
     </React.StrictMode>,
     document.getElementById('root')
 );
