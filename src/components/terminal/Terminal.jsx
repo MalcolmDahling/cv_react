@@ -76,6 +76,7 @@ export function Terminal(selectedArticle){
                             .typeString('Initializing Index.scss<br>')
                             .typeString('Initializing App.jsx<br>')
                             .typeString('Initializing App.scss<br>')
+                            .typeString('Initializing Profile.jsx<br>')
                             .pauseFor(500)
                             .typeString('Component initialization complete<br>')
                             .pauseFor(500)

@@ -11,18 +11,22 @@ main{
     border-radius:10px;
     border:1px solid white;
 
+    font-family:'visitor';
+    letter-spacing:3px;
+
     .sectionLeft{
 
         h1{
             margin:0px;
             margin-bottom:10px;
-            text-align:center;
-            font-size:1.6rem;
+            text-align:center; 
+            font-size:3rem;
         }
 
         .profilePic{
             width:200px;
             border:1px solid #ffffff;
+            border-radius:10px;
         }
         
         nav{
@@ -37,6 +41,7 @@ main{
                 height:50px;
                 border:2px solid #ffffff;
                 padding:5px;
+                border-radius:10px;
                 filter:invert(48%) sepia(87%) saturate(1099%) hue-rotate(77deg) brightness(100%) contrast(96%) drop-shadow(3px 3px 3px rgba(32, 194, 14, 0.25));
 
                 img{
@@ -75,6 +80,7 @@ main{
 
         div{
             flex-basis:49%;
+            
             padding:10px;
             box-sizing:border-box;
 
@@ -88,7 +94,7 @@ main{
 
             h2{
                 margin:0px;
-                font-size:1.25rem;
+                font-size:1.5rem;
             }
 
             .icon{
