@@ -67,7 +67,7 @@ export function Main({changeArticle}){
                 
                 <div id="Programming" onClick={e => { handleClick(e); }} className={styleCheck == 'Programming' ? 'selected' : null}>
                     <img src={icons_40x40} className="icon icon7" alt="Programmering" />
-                    <h2>Programmeringsspråk</h2>
+                    <h2>Programmering</h2>
                 </div>
                 
                 <div id="Languages" onClick={e => { handleClick(e); }} className={styleCheck == 'Languages' ? 'selected' : null}>

@@ -4,7 +4,7 @@ export function Programming(){
 
     return(
         <article>
-            <h3>Programmeringsspråk</h3>
+            <h3>Programmering</h3>
             <p>
                 Kunnig inom HTML, CSS och Javascript (vanilla, React, Angular, Typescript och Node), även grundläggande kunskaper inom C#, C++, PHP och SQL.
             </p>
