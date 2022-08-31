@@ -15,16 +15,18 @@ main{
     letter-spacing:3px;
 
     .sectionLeft{
+        flex-basis:25%;
 
         h1{
             margin:0px;
             margin-bottom:10px;
             text-align:center; 
             font-size:3rem;
+            line-height:2rem;
         }
 
         .profilePic{
-            width:200px;
+            width:100%;
             border:1px solid #ffffff;
             border-radius:10px;
         }
