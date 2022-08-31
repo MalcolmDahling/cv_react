@@ -6,7 +6,7 @@ export function Languages(){
         <article>
             <h3>Språkkunskaper</h3>
             <p>
-                Svenska.
+                Svenska som modersmål.
                 <br/>
                 Engelska, flytande.
             </p>
