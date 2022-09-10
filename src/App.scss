@@ -12,6 +12,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 
+
+
+//Phone
+@media only screen and (max-width:967px){
+
+    body{
+
+        #wrapper{
+
+            padding:10px;
+        }
+    }
+}
+
+
+
+//Desktop
+@media only screen and (min-width:968px){
+    body{
+
+        #wrapper{
+            position:absolute;
+            top:50%;
+            left:50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+            width:55%;
+            min-width:968px;
+        }
+    }
+}
+
+
+
 body{
     font-family: 'Rubik', sans-serif;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
@@ -21,15 +56,6 @@ body{
     }
 
     #wrapper{ //contains all content.
-        position:absolute;
-        top:50%;
-        left:50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-
-        width:55%;
-        min-width:968px;
-
         display:flex;
         gap:15px;
         flex-direction:column;

@@ -1,4 +1,7 @@
 import './Main.scss';
+import './MainSectionLeft.scss';
+import './MainSectionRight.scss';
+import './MainSectionBottom.scss';
 import icons_40x40 from '../../img/icons/icons_40x40.webp';
 import icons_36x36 from '../../img/icons/icons_36x36.webp';
 import profilePic from '../../img/profilepic.webp';
@@ -89,8 +92,8 @@ export function Main({changeArticle}){
             </section>
 
             <section className="mainSectionBottom">
-                <p>Email: mac.dahling@gmail.com</p>
-                <p>Telefon: 073 209 83 38</p>
+                <p><span>Email: </span>mac.dahling@gmail.com</p>
+                <p><span>Telefon: </span>073 209 83 38</p>
             </section>
 
         </main>
