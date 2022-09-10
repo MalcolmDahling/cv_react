@@ -21,11 +21,14 @@ body{
     }
 
     #wrapper{ //contains all content.
-        margin:auto;
+        position:absolute;
+        top:50%;
+        left:50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
         width:55%;
         min-width:968px;
-        padding-top:15px;
-        padding-bottom:15px;   
 
         display:flex;
         gap:15px;
