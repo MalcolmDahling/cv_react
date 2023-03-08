@@ -1,0 +1,88 @@
+@font-face {
+    font-family: matrix-code;
+    src: url('./fonts/matrix_code_nfi.ttf');
+}
+
+@font-face{
+    font-family: visitor;
+    src: url('./fonts/visitor2.ttf');
+}
+
+//Rubik font
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+
+
+//Phone
+@media only screen and (max-width:967px){
+
+    body{
+
+        #wrapper{
+
+            padding:10px;
+        }
+    }
+}
+
+
+
+//Desktop
+@media only screen and (min-width:968px){
+    body{
+
+        #wrapper{
+            position:absolute;
+            top:50%;
+            left:50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+            width:55%;
+            min-width:968px;
+        }
+    }
+}
+
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+
+    *{
+        box-sizing:border-box;
+    }
+
+    #wrapper{ //contains all content.
+        display:flex;
+        gap:15px;
+        flex-direction:column;
+    }
+}
+
+
+
+//SCROLLBAR
+
+/* width */
+::-webkit-scrollbar {
+     width:10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background:#1f1f1f;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#5a5a5a;
+    border-radius:10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:#747474;
+}

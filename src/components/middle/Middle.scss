@@ -1,0 +1,29 @@
+@media only screen and (max-width:967px){
+
+    .sectionMiddle{
+        padding:20px;
+    }
+}
+
+
+
+//Desktop
+@media only screen and (min-width:968px){
+
+    .sectionMiddle{
+        padding:30px;
+        height:236.5px;
+    }
+}
+
+
+
+.sectionMiddle{
+    position:relative;
+    z-index:1;
+
+    background-color:rgba(15, 15, 15, 0.95);
+    color:white;
+    border-radius:10px;
+    border:1px solid white;
+}

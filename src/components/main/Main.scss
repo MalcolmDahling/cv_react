@@ -1,0 +1,107 @@
+//Phone
+@media only screen and (max-width:967px){
+
+    main{
+        padding:20px;
+
+        gap:20px;
+
+        .mainSectionLeft{
+            flex-basis:100%;
+
+            h1{
+                margin-bottom:30px;
+                font-size:4rem;
+            }
+        }
+
+        .mainSectionRight{
+
+
+            div{
+                
+                flex-basis:100%;
+                flex-grow:1;
+
+                h2{
+                    //font-size:1.35rem;
+                    font-size:max(5vw);
+                }
+            }
+        }
+
+        .mainSectionBottom{
+            flex-wrap:wrap;
+
+            p{
+                font-size:max(4vw, 1.2rem);
+
+                span{
+
+                    display:block;
+                }
+            }
+        }
+    }
+}
+
+
+
+//Desktop
+@media only screen and (min-width:968px){
+
+    main{
+        padding:30px;
+
+        gap:30px;
+
+        .mainSectionLeft{
+            flex-basis:20%;
+
+            h1{
+                margin-bottom:10px;
+                font-size:3rem;
+            }
+        }
+        
+        .mainSectionRight{
+
+            flex-basis:70%;
+
+            div{
+                flex-basis:49%;
+
+                h2{
+                    font-size:1.5rem;
+                }
+            }
+        }
+
+        .mainSectionBottom{
+
+            p{
+                font-size:1.5rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+main{
+    z-index:1;
+
+    display:flex;
+    flex-wrap:wrap;
+
+    background-color:rgba(15, 15, 15, 0.95);
+    color:white;
+    border-radius:10px;
+    border:1px solid white;
+
+    font-family:'visitor';
+    letter-spacing:3px; 
+}

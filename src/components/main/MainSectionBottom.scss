@@ -1,0 +1,16 @@
+.mainSectionBottom{
+    flex-basis:100%;
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+
+    p{
+        font-family: 'Rubik';
+        margin:0px;
+        padding:0px;
+        color:white;
+        letter-spacing: normal;
+        text-align:center;
+    }
+}

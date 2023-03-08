@@ -1,0 +1,52 @@
+.mainSectionLeft{
+    
+
+    h1{
+        margin:0px;
+        text-align:center;
+        line-height:2rem;
+    }
+
+    .profilePic{
+        width:100%;
+        border:1px solid #ffffff;
+        border-radius:10px;
+    }
+    
+    nav{
+        margin-top:10px;
+        cursor:default;
+        display:flex;
+        justify-content:space-between;
+        
+        a{
+            width:50px;
+            height:50px;
+            border:2px solid #ffffff;
+            padding:5px;
+            border-radius:10px;
+            filter:invert(48%) sepia(87%) saturate(1099%) hue-rotate(77deg) brightness(100%) contrast(96%) drop-shadow(3px 3px 3px rgba(32, 194, 14, 0.25));
+
+            img{
+                object-fit:none; //crops the image.
+                width:36px;
+                height:36px;
+            }
+
+            .icon0{object-position:0px 0px;}
+            .icon1{object-position:-36px 0px;}
+            .icon2{object-position:-72px 0px;}
+        }
+
+        a:hover{
+            cursor:pointer;
+            background-color:rgba(255, 255, 255, 0.2);
+        }    
+    }
+    
+    a{
+        text-decoration:none;
+        font-size:1.17em;
+    }
+    
+}
