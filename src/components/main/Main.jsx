@@ -30,7 +30,7 @@ export function Main({changeArticle}){
                 <img className="profilePic" src={profilePic} alt="Profile Picture" />
 
                 <nav>
-                    <a href="mailto:mac.dahling@gmail.com" aria-label="Email" className="headerIcon">
+                    <a href="" aria-label="Email" className="headerIcon">
                         <img src={icons_36x36} className="icon0" alt="Email" />
                     </a>
 
@@ -91,9 +91,6 @@ export function Main({changeArticle}){
 
             </section>
 
-            <section className="mainSectionBottom">
-                <p><span>Email: </span>mac.dahling@gmail.com</p>
-            </section>
 
         </main>
     );
